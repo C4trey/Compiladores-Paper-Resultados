@@ -1,0 +1,28 @@
+== Fecha
+Sat Nov 14 21:21:47 UTC 2026
+== CPU
+CPU(s):                                  12
+Model name:                              12th Gen Intel(R) Core(TM) i5-12400F
+Thread(s) per core:                      2
+Core(s) per socket:                      6
+== RAM
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       866Mi       6.4Gi        49Mi       675Mi       6.8Gi
+== Kernel
+6.18.58.1-microsoft-standard-WSL2
+== SO
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+== glibc
+ldd (Ubuntu GLIBC 2.43-2ubuntu2.7) 2.43
+== gcc-13
+gcc-13 (Ubuntu 13.4.0-10ubuntu1) 13.4.0
+== gcc-15
+gcc-15 (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+== clang-18
+Ubuntu clang version 18.1.8 (20ubuntu8)
+== clang-22
+Ubuntu clang version 22.1.2 (1ubuntu1)
+== lld
+Ubuntu LLD 22.1.2 (compatible with GNU linkers)
+== binutils
+GNU ld (GNU Binutils for Ubuntu) 2.46

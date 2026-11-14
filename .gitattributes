@@ -1,0 +1,2 @@
+# Fuerza finales de línea LF: los scripts .sh con CRLF (Windows) no se ejecutan en Linux.
+* text=auto eol=lf

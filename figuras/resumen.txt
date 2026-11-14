@@ -1,0 +1,23 @@
+[PI1] gcc-13: memset (T1) deja el secreto en 30/30 configuraciones optimizadas
+[PI1] gcc-15: memset (T1) deja el secreto en 30/30 configuraciones optimizadas
+[PI1] clang-18: memset (T1) deja el secreto en 26/30 configuraciones optimizadas
+[PI1] clang-22: memset (T1) deja el secreto en 26/30 configuraciones optimizadas
+[PI1] Técnicas protegidas en todas las configuraciones optimizadas: T3, T4, T5, T6, T7, T8, T9
+[Pases] clang-18: DSEPass -> 42 casos
+[Pases] clang-18: X86 DAG->DAG Instruction Selection -> 4 casos
+[Pases] clang-22: dse -> 42 casos
+[Pases] clang-22: stack-coloring -> 3 casos
+[Pases] gcc-13: tree-cddce1 -> 30 casos
+[Pases] gcc-15: tree-cddce1 -> 20 casos
+[Pases] gcc-13: tree-dse1 -> 30 casos
+[Pases] gcc-15: tree-dse1 -> 30 casos
+[Pases] gcc-15: tree-dse4 -> 1 casos
+[Pases] gcc-15: tree-dse5 -> 7 casos
+[PI2] gcc-13 lto: técnicas protegidas por separado que dejan el secreto con LTO: T1, T2
+[PI2] gcc-15 lto: técnicas protegidas por separado que dejan el secreto con LTO: T1, T2
+[PI2] clang-18 lto: técnicas protegidas por separado que dejan el secreto con LTO: T1, T2
+[PI2] clang-18 thinlto: técnicas protegidas por separado que dejan el secreto con LTO: T1, T2
+[PI2] clang-22 lto: técnicas protegidas por separado que dejan el secreto con LTO: T1, T2
+[PI2] clang-22 thinlto: técnicas protegidas por separado que dejan el secreto con LTO: T1, T2
+[PI3] gcc-15, 4 KiB, costo relativo a la línea base: T3=27.06x, T4=0.95x, T5=0.94x, T6=0.99x, T7=0.99x, T8=0.95x, T9=0.96x
+[PI3] clang-22, 4 KiB, costo relativo a la línea base: T3=26.35x, T4=0.98x, T5=1.02x, T6=1.03x, T7=1.03x, T8=0.98x, T9=0.99x

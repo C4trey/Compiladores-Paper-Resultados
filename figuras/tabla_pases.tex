@@ -1,0 +1,14 @@
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Pase & clang-18 & clang-22 & gcc-13 & gcc-15 \\
+\midrule
+DSEPass & 42 & 0 & 0 & 0 \\
+X86 DAG$\to$DAG Instruction Selection & 4 & 0 & 0 & 0 \\
+dse & 0 & 42 & 0 & 0 \\
+stack-coloring & 0 & 3 & 0 & 0 \\
+tree-cddce1 & 0 & 0 & 30 & 20 \\
+tree-dse1 & 0 & 0 & 30 & 30 \\
+tree-dse4 & 0 & 0 & 0 & 1 \\
+tree-dse5 & 0 & 0 & 0 & 7 \\
+\bottomrule
+\end{tabular}
